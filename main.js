@@ -5,7 +5,6 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 let errorMessage =document.getElementById('modal'); 
-let like =document.getElementsByClassName('like');
 let likeheart =document.getElementsByClassName('like-glyph');
 
 
