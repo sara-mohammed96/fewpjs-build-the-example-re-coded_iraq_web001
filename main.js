@@ -26,7 +26,7 @@ if(e.innerText===EMPTY_HEART){
   }
 //catch the error
   }).catch(error =>{
-    console.log(error)
+    console.log(error);
     errorMessage.classList.remove('hidden');
     setTimeout(errorMessage.classList.add('hidden'),5000);
 
