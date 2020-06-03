@@ -17,7 +17,6 @@ console.log(event.target.innerText);
 if(e.innerText===EMPTY_HEART){
   likes.innerText =FULL_HEART;
   likes.classList.add('activated-heart');
-  console.log('empty');
   }
   else
   //the dislike heart 
@@ -27,6 +26,7 @@ if(e.innerText===EMPTY_HEART){
   }
 //catch the error
   }).catch(error =>{
+    console.log(error)
     errorMessage.classList.remove('hidden');
     setTimeout(errorMessage.classList.add('hidden'),5000);
 
