@@ -29,7 +29,7 @@ if(e.innerText===EMPTY_HEART){
 //catch the error
   }).catch(error =>{
     errorMessage.classList.remove('hidden');
-    setTimeout(modal.classList.add('hidden'),5000);
+    setTimeout(errorMessage.classList.add('hidden'),5000);
 
 })})
   }
