@@ -7,7 +7,7 @@ const FULL_HEART = '♥'
 let errorMessage =document.getElementById('modal'); 
 let likeheart =document.getElementsByClassName('like-glyph');
 
-
+errorMessage.classList.add('hidden');
 for(const likes of likeheart ){
   likes.addEventListener('click',(event) =>{
     mimicServerCall()
